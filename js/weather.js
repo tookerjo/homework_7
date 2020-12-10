@@ -35,7 +35,7 @@ function gettingJSON(){
     // Your code here.
     //fyi - detroit is hard-coded in there, so I need to update to a wildcard(ish) after ?q=
     //string manipulation
-    query="http://api.openweathermap.org/data/2.5/weather?q="+location+"&units="+format+"&appid=755f8bac507581015b67aed10a3d9a33";
+    query="https://api.openweathermap.org/data/2.5/weather?q="+location+"&units="+format+"&appid=755f8bac507581015b67aed10a3d9a33";
 
     console.log("Query is :" + query);
 
